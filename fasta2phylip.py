@@ -43,9 +43,9 @@ def fasta2phylip( in_name ):
 
 if __name__ == "__main__":
 	if len(sys.argv) < 2:
-		print usage
+		print (usage)
 		sys.exit( 0 )
 	in_name = sys.argv[1]
-	print fasta2phylip( in_name )
+	print ( fasta2phylip( in_name ) )
 
 
